@@ -1,0 +1,105 @@
+button{
+
+    background-image: url(rauw&soccer.webp);
+    height: 400px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    border: 4px solid black;
+    position: relative;
+    color: transparent;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    color:black;
+}
+.rauwrauw{ 
+    
+    background-image: url(rauwrauw.jpeg);
+    height: 400px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    border: 4px solid black;
+    position: relative;
+    color: transparent;
+    font-size: 32px;
+}
+.rauwrauw:hover{
+    color: black;
+}
+
+
+.Rauwww{
+   
+    background-image: url(Rauwww.jpeg);
+    height: 300px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    border: 4px solid black;
+    position: relative;
+   
+}
+
+.saturno{
+    
+    background-image: url(saturno.jpeg);
+    height: 300px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    border: 4px solid black;
+    position: relative;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.div1 button:hover{
+    background-image: url("white.jpeg");
+    cursor: pointer;
+   
+}
+
+.rauwwww{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div1{
+    display: flex;
+    border: 8px solid rgb(77, 77, 237);
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: silver;
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 10px 10px 8px rgb(77, 77, 237);
+    font-size: 100px;
+}
+@media (max-width:1000px ){
+    
+    button, .Rauwww, .rauwrauw,.saturno {
+        height: 250px;
+        width: 200px;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 60px;
+    }
+   
+    
+
+}

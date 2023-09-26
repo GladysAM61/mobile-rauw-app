@@ -1,0 +1,27 @@
+h1{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 10px  10px 10px whitesmoke;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+body{
+    background-color: rgb(246, 163, 243);
+}
+div{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width:1000px ){
+    div{
+        font-size: 25px;
+    }
+    .img{
+        height: 200px;
+        width: 300px
+    }
+}

@@ -1,0 +1,23 @@
+div{
+    font-size: 50px;
+    background-color: rgb(251, 159, 230);
+
+}
+.img{
+   height: 550px; 
+   width: 500px;
+   float: right;
+}
+h1{
+    text-shadow: 8px 8px 10px rgb(134, 223, 255);
+    text-align: center;
+}
+@media (max-width:1000px ){
+    div{
+        font-size: 25px;
+    }
+    .img{
+        height: 200px;
+        width: 300px
+    }
+}
